@@ -1,0 +1,75 @@
+<!doctype html>
+<html ⚡>
+
+<head>
+  <meta charset="utf-8">
+  <title>My AMP Page</title>
+  <link rel="canonical" href="self.html" />
+  <script async custom-element="amp-base-carousel" src="https://cdn.ampproject.org/v0/amp-base-carousel-0.1.js"></script>
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+<script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
+
+
+  <style amp-custom>
+    amp-base-carousel .item {
+      padding: 0px;
+      border: 1px solid black;
+    }
+    #wrapper {
+      width: 840px;
+      align-content: center;
+    }
+    #first{
+        background-color: #ffffff;
+    }
+    #second{
+        background-color: #000000;
+    }
+
+    p{
+        text-align: center;
+    }
+    #o{
+        vertical-align: top;
+    }
+  </style>
+</head>
+<body>
+    
+
+    <div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <ul class="carousel">
+        <li class="card">
+          <div class="img"><img src="./images/tile1.png" alt="img" draggable="false"></div>
+          <h2>Blanche Pearson</h2>
+          <span>Sales Manager</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="./images/tile1.png" alt="img" draggable="false"></div>
+          <h2>Joenas Brauers</h2>
+          <span>Web Developer</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="./images/tile1.png" alt="img" draggable="false"></div>
+          <h2>Lariach French</h2>
+          <span>Online Teacher</span>
+        </li>
+        <li class="card">
+            <div class="img"><img src="./images/tile1.png" alt="img" draggable="false"></div>
+            <h2>Joenas Brauers</h2>
+            <span>Web Developer</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="./images/tile1.png" alt="img" draggable="false"></div>
+            <h2>Lariach French</h2>
+            <span>Online Teacher</span>
+          </li>
+      </ul>
+      <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+
+</body>
+</html>
